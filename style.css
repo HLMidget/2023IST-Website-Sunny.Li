@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display)
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 BODY {
-	font-family:'roboto', sans-serif
+	font-family: 'Roboto', sans-serif;
 }
 
 DIV {
@@ -21,32 +21,31 @@ DIV {
 	margin-right: auto;
 	margin-left: auto;
 	}
-
+	
 #Footer {
 	width: 802px;
 	margin-right: auto;
 	margin-left: auto;
 	height:50px;
-	}
+}
 
 #FooterLeft {
 	float:left;
-	width:399px; /*49.5%*/
+	width:49.5%;
 	height:50px;
 	border: 1px solid green;
-	}
+}
 
-#FooterRight { 
+#FooterRight {
 	float:right;
-	width:399px; /*49.5%*/
+	width:49.5;
 	height:50px;
 	border: 1px solid red;
-	}
-	
-@media only screen and (max-width: 998px) {
-	#footer, #MainContent, #Header {
-		width:100%;
-	}
 }
-	
+
+@media only screen and (max-width: 998px) {
+  #Footer, #MainContent, #Header {
+    width:100%;
+  }
+}
 	
