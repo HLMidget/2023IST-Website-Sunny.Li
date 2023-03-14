@@ -23,7 +23,7 @@ DIV {
 	}
 
 .index-h1 {
-	color: red;
+	color: red; text-align: center;
 }
 
 .button-container {
@@ -77,20 +77,20 @@ DIV {
 	width: 802px;
 	margin-right: auto;
 	margin-left: auto;
-	height:50px;
+	height:100px;
 }
 
 #FooterLeft {
 	float:left;
 	width:49.5%;
-	height:50px;
+	height:90px;
 	border: 1px solid green;
 }
 
 #FooterRight {
 	float:right;
 	width:49.5%;
-	height:50px;
+	height:53px;
 	border: 1px solid red;
 }
 
