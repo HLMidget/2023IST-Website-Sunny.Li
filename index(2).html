@@ -17,98 +17,49 @@
   <body>
  
 <style>
-.container {border:1px solid red;}
+.container {border:1px}
 .col-lg-6 {border:1px solid green;}
  .navbar-brand img {height:70px}
+ #myCarousel {padding-top:96px!important}
 
 </style>  
 
 
-	<!-- NAVBAR STARTS HERE -->
-
-
-	<!-- NAVBAR ENDS HERE -->
-	
-	<!-- CAROUSEL STARTS HERE -->
-
- 
-
-
-
-	<!-- CAROUSEL ENDS HERE -->
-	
-	<!-- PRICE PG STARTS HERE -->
-<div class="container text-center">
-  <div class="row">
-    <div class="col align-self-start">
-      One of three columns
-    </div>
-    <div class="col align-self-center">
-      One of three columns
-    </div>
-    <div class="col align-self-end">
-      One of three columns
-    </div>
-  </div>
-</div>
-	<!-- PRICE PG ENDS HERE -->
-	
-	<!-- MODAL STARTS HERE -->
-<body>
-    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-      
-    </svg>
-
-    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
-      <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (light)">
-        <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#sun-fill"></use></svg>
-        <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
-      </button>
-      <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
-        <li>
-          <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="light" aria-pressed="true">
-            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>
-            Light
-            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
-          </button>
-        </li>
-        <li>
-          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
-            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
-            Dark
-            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
-          </button>
-        </li>
-        <li>
-          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto" aria-pressed="false">
-            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#circle-half"></use></svg>
-            Auto
-            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
-          </button>
-        </li>
-      </ul>
-    </div>
-
-    
 <header data-bs-theme="dark">
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src=".working document\Entitled-1.png"/></a>
+      <a class="navbar-brand" href="https://www.psychologytoday.com/us/blog/fighting-fear/201401/the-most-popular-ways-die"><img src=".working document\Entitled-1.png"/></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
+		  <ul class="navbar-nav">
+ </ul>
+	  </ul>        
+	   </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" target="_blank" href="https://www.psychologytoday.com/us/blog/fighting-fear/201401/the-most-popular-ways-die">Home</a>
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" target="_blank" href="https://www.psychologytoday.com/us/blog/fighting-fear/201401/the-most-popular-ways-die">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" target="_blank" href="https://www.marketindex.com.au/scans/top-gainers">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" target="_blank" href="Pricing.html">Premium</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Trading Types
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item" href="#">Day Trading</a></li>
+                      <li><a class="dropdown-item" href="#">Swing Trading</a></li>
+                      <li><a class="dropdown-item" href="#">Investing</a></li>
+                      <li><a class="dropdown-item" href="#">Futures Trading</a></li>
+                      <li><a class="dropdown-item" href="#">Forex Trading</a></li>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" target="_blank" href="https://www.marketindex.com.au/scans/top-gainers">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="https://www.psychologytoday.com/us/blog/fighting-fear/201401/the-most-popular-ways-die">PRESS</a>
-          </li>
-        </ul>
+          </ul>   
+          </ul>
+	   </button>
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
@@ -118,8 +69,9 @@
   </nav>
 </header>
 
-<main>
 
+<div class="container-fluid">
+<div class="row">
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
@@ -167,8 +119,9 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-
-
+</div>
+</div>
+</div>
   <!-- Marketing messaging and featurettes
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
@@ -180,20 +133,21 @@
 	<div class="border col-4">
         <img src="https://th.bing.com/th/id/OIP.GQPMAvfOTT0oauCdLwR3qgAAAA?pid=ImgDet&rs=1" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img">
         <h2 class="fw-normal">ASX-200</h2>
-        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-        <p><a class="btn btn-secondary" target="_blank" href="https://www.asx200list.com/#:~:text=ASX%20200%20List%20%2828%20April%202021%29%20%20,Abacus%20Property%20Group%20%2082%20more%20rows%20">View details »</a></p>
+        <p>The S&P/ASX 200 (XJO) is Australia’s leading share market index and contains the top 200 ASX listed companies by float-adjusted market capitalisation. It accounts for 84% of Australia's equity market, which has ~2,442 stocks (March 2023).
+       <p> <a class="btn btn-secondary" target="_blank" href="https://www.marketindex.com.au/asx200">View details »</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="border col-4">
         <img src="images\-1.png" width="180" height="140" xmlns="http://www.w3.org/2000/svg" role="img">
         <h2 class="fw-normal">NASDAQ-100</h2>
         <p>The market was founded in 1985 and has made 13,050.1%, currently sitting at US$14,546.64 as of June 1st 2023. This market consists of the top 100 tech companies in terms of market cap within the Unites States including Apple, Amazon, Nvidia, Google and Microsoft.</p>
-        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        <p><a class="btn btn-secondary" target="_blank" href="https://www.nasdaq.com/solutions/nasdaq-100/companies">View details »</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="border col-4">
       <img src="images\OIP.jpg" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img">
         <h2 class="fw-normal">S&P-500</h2>
-        <p>And lastly this, the third column of representative placeholder content.</p>
-        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        <p>The index has 503 components because three of them have two share classes listed.
+			It is not an exact list of the top 500 companies by market cap. The S&P 500 index is regarded as one of the best gauges of American equities' performance, and that of the stock market overall.</p>
+        <p><a class="btn btn-secondary" target="_blank" href="https://markets.businessinsider.com/index/components/s&p_500">View details »</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
@@ -204,8 +158,13 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-body-secondary">It’ll blow your mind.</span></h2>
-        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+        <h2 class="featurette-heading fw-normal lh-1">Swing Trading <span class="text-body-secondary"></span></h2>
+        <p> Swing trading is a style of trading that attempts to capture short- to medium-term gains in a stock (or any financial instrument) over a period of a few days to several weeks. 
+		Swing traders primarily use technical analysis to look for trading opportunities. Swing traders may utilize fundamental analysis in addition to analyzing price trends and patterns.</p>
+		<p> <strong>Advantages and Disadvantages of Swing Trading</strong></p>
+		<p>Many swing traders assess trades on a risk/reward basis. By analyzing the chart of an asset, they determine where they will enter, where they will place a stop-loss order, and then anticipate where they can get out with a profit. If they are risking $1 per share on a setup that could reasonably produce a $3 gain, that is a favorable risk/reward ratio. On the other hand, risking $1 only to make $0.75 isn’t quite as favorable.
+		Swing traders primarily use technical analysis, due to the short-term nature of the trades. That said, fundamental analysis can be used to enhance the analysis. For example, if a swing trader sees a bullish setup in a stock, they may want to verify that the fundamentals of the asset look favorable or are improving.
+		Swing traders will often look for opportunities on the daily charts and may watch one-hour or 15-minute charts to find precise entry, stop-loss, and take-profit levels.</p>
       </div>
       <div class="col-md-5">
         <img src="images\Bull-and-Stock-Market-iStock.png" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img">
@@ -216,11 +175,19 @@
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2>
-        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
-      </div>
+        <h2 class="featurette-heading fw-normal lh-1">Day Trading<span class="text-body-secondary"></span></h2>
+        <p>Day trading can turn into a lucrative career (as long as you do it properly). But it can be challenging for novices—especially those who don't have a well-planned strategy. And be aware that even the most seasoned day traders can hit rough patches and experience losses.Day trading means buying and selling a batch of securities within a day, or even within seconds. It has nothing to do with investing in the traditional sense. It is exploiting the inevitable up-and-down price movements that occur during a trading session. Day trading is most common in the stock markets and on the foreign exchange (forex) where currencies are traded.
+						Day traders are typically well-educated in the minutia of trading and tend to be well funded. Many of them add an additional level of risk by using leverage to increase the size of their stakes.
+						Day traders are attuned to events that cause short-term market moves. Trading based on the news is one popular technique. Scheduled announcements such as the release of economic statistics, corporate earnings, or interest rate announcements are subject to market expectations and market psychology. That is, markets react when those expectations are not met or are exceeded—usually with sudden, significant moves which can greatly benefit day traders.</p>
+      <p> <strong>Day traders use numerous intraday strategies. These strategies include:</strong> </p>
+	  <P>1. Scalping: This strategy focuses on making numerous small profits on ephemeral price changes that occur throughout the day.</p>
+		<p>2. Range trading: This strategy uses pre-determined support and resistance levels in prices to determine the trader's buy and sell decisions.</p>
+			<p>3. News-based trading: This strategy seizes trading opportunities from the heightened volatility that occurs around news events.</p>
+			<p>4. High-frequency trading (HTF): These strategies use sophisticated algorithms to exploit small or short-term market inefficiencies.</p>
+	  </div>
       <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+        <video src="https://www.youtube.com/watch?v=K3FV36YHdRk&pp=ygULZGF5IHRyYWRpbmc%3D" class="object-fit-fill" width="500" height="500"> </video>
+		
       </div>
     </div>
 
@@ -228,11 +195,23 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-body-secondary">Checkmate.</span></h2>
-        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+        <h2 class="featurette-heading fw-normal lh-1">Forex Trading <span class="text-body-secondary"></span></h2>
+        <p>Forex (FX) is a portmanteau of the words foreign [currency] and exchange. Foreign exchange is the process of changing one currency into another for various reasons, usually for commerce, trading, or tourism. According to a 2022 triennial report from the Bank for International Settlements (a global bank for national central banks), the daily global volume for forex trading reached 
+		$7.5 trillion in 2022.The market is open 24 hours a day, five and a half days a week. 
+		Currencies are traded worldwide in the major financial centers of Frankfurt, Hong Kong, London, New York, Paris, Singapore, Sydney, Tokyo, and Zurich—across almost every time zone. This means the forex market begins in Tokyo and Hong Kong when the U.S. trading day ends. As such, the forex market can be highly active at any time, with price quotes changing constantly.
+		</p> 
+		<p> <strong> The spot market is where currencies are bought and sold based on their trading price. That price is determined by supply and demand and is calculated based on several factors, such as:</strong></p>
+
+<p>1. Current interest rates</p>
+<p>2. Economic performance</p>
+<p>3. Geopolitical sentiment</p>
+<p>4. Price speculation</p>
+A finalized deal on the spot market is known as a spot deal. It is a bilateral transaction in which one party delivers an agreed-upon currency amount to the counterparty and receives a specified amount of another currency at the agreed-upon exchange rate value. After a position is closed, it is settled in cash.
+
+Although the spot market is commonly known as one that deals with transactions in the present (rather than in the future), these trades take two days to settle.</p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+        <img src="https://th.bing.com/th/id/OIP.Zhaii24u87zDQjm4effxTgHaE8?pid=ImgDet&rs=1" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img">
       </div>
     </div>
 
@@ -248,7 +227,7 @@
     <p class="float-end"><a href="#">Back to top</a></p>
     <p>© 2007–2023 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
   </footer>
-</main>
+
 
 
     <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
